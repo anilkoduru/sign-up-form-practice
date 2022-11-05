@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/30b80cadca.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="form">
+      <p id="free"><span id="try">Try it free 7 days</span>  then $20/mo. thereafter</p>
+      <form id="form-data" action="/">
+        <div class="icon">
+          <input id="first-name" type="text" name="firstname" placeholder="First Name">
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small class="small">Error message</small>
+        </div>
+        <div class="icon">
+          <input id="last-name" type="text" name="lastname" placeholder="Last Name">
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small class="small">Error message</small>
+        </div>
+        <div class="icon">
+          <input id="e-mail" type="email" name="email" placeholder="Email Address">
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small class="small">Error message</small>
+        </div>
+        <div class="icon">
+          <input id="pass-word" type="password" name="password" placeholder="Password">
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small class="small">Error message</small>
+        </div>
+        <button id="btn">CLAIM YOUR FREE TRAIL</button>
+        <p>By clicking the button, you are agreeing to our <span id="term">Terms and Services</span></p>
+      </form>
+    </div>
+  </div> 
+  <script src="script.js"></script>
+</body>
+</html>
